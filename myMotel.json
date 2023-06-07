@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "room_number": 101,
+        "room_price": 89.99,
+        "bed_size": "Queen",
+        "available": false,
+        "checkin_date": "2023-04-23",
+        "checkout_date": "2023-04-29",
+        "amenities": [
+            "TV",
+            "Coffee Maker",
+            "Mini Fridge"
+        ],
+        "customer_name": "Linda Smith",
+        "customer_phone": "401-666-8888"
+    },
+    {
+        "id": 2,
+        "room_number": 102,
+        "room_price": 89.99,
+        "bed_size": "Queen",
+        "available": false,
+        "checkin_date": "2023-04-20",
+        "checkout_date": "2023-04-22",
+        "amenities": [
+            "TV",
+            "Coffee Maker",
+            "Mini Fridge"
+        ]
+    },
+    {
+        "id": 3,
+        "room_number": 103,
+        "room_price": 99.99,
+        "bed_size": "Queen",
+        "available": false,
+        "checkin_date": "2023-04-20T00:00:00.000Z",
+        "checkout_date": "2023-05-03T00:00:00.000Z",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge"
+        ],
+        "customer_name": "Kenney Kong",
+        "customer_phone": "401-263-9303"
+    },
+    {
+        "id": 4,
+        "room_number": 104,
+        "room_price": 99.99,
+        "bed_size": "Queen",
+        "available": false,
+        "checkin_date": "2023-04-20T00:00:00.000Z",
+        "checkout_date": "2023-04-26T00:00:00.000Z",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge"
+        ],
+        "customer_name": "Kenney Kong",
+        "customer_phone": "401-263-9303"
+    },
+    {
+        "id": 5,
+        "room_number": 105,
+        "room_price": 109.99,
+        "bed_size": "Double Bed",
+        "available": false,
+        "checkin_date": "2023-04-20",
+        "checkout_date": "2023-04-26",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge",
+            "Kitchenette"
+        ],
+        "customer_name": "Kenney Kong",
+        "customer_phone": "401-777-7777"
+    },
+    {
+        "id": 6,
+        "room_number": 106,
+        "room_price": 109.99,
+        "bed_size": "Double Bed",
+        "available": false,
+        "checkin_date": "2023-04-21T00:00:00.000Z",
+        "checkout_date": "2023-04-22T00:00:00.000Z",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge",
+            "Kitchenette"
+        ],
+        "customer_name": "Kenney Kong",
+        "customer_phone": "401-263-9303"
+    },
+    {
+        "id": 7,
+        "room_number": 107,
+        "room_price": 119.99,
+        "bed_size": "King",
+        "available": false,
+        "checkin_date": "2023-04-20",
+        "checkout_date": "2023-04-26",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge",
+            "Kitchenette"
+        ],
+        "customer_name": "John Doe",
+        "customer_phone": "401-555-5555"
+    },
+    {
+        "id": 8,
+        "room_number": 108,
+        "room_price": 119.99,
+        "bed_size": "King",
+        "available": false,
+        "checkin_date": "2023-04-21",
+        "checkout_date": "2023-04-28",
+        "customer_name": "Kenney Kong",
+        "customer_phone": "401-263-9303",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge",
+            "Kitchenette"
+        ],
+        "notes": ""
+    },
+    {
+        "id": 9,
+        "room_number": 109,
+        "room_price": 129.99,
+        "bed_size": "King",
+        "available": false,
+        "checkin_date": "2023-04-21T00:00:00.000Z",
+        "checkout_date": "2023-04-28T00:00:00.000Z",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge",
+            "Kitchenette"
+        ],
+        "customer_name": "Kenney Kong",
+        "customer_phone": "401-263-9303"
+    },
+    {
+        "id": 10,
+        "room_number": 110,
+        "room_price": 129.99,
+        "bed_size": "King",
+        "available": false,
+        "checkin_date": "2023-04-21",
+        "checkout_date": "2023-04-28",
+        "amenities": [
+            "TV",
+            "Microwave",
+            "Coffee Maker",
+            "Mini Fridge",
+            "Kitchenette"
+        ],
+        "customer_name": "Linda Smith",
+        "customer_phone": "401-666-8888"
+    }
+]
