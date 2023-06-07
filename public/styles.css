@@ -1,0 +1,193 @@
+/* nav bar declarations */
+#navbar {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'Cinzel Decorative', Arial, Helvetica;
+  border-bottom: 2px solid azure;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color:azure;
+    text-decoration: none;
+  }
+   
+  a:hover {
+    text-decoration: overline;
+    color: azure;
+  }
+/* end of nav bar declarations */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* homepage declarations*/
+
+  #homeBody {
+    background-image: url("https://images.fineartamerica.com/images-medium-large/king-kong-hotel-karen-walzer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: gainsboro;
+  }
+  
+  #greeting {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4vw;
+    padding-top: 25vw;
+    padding-left: 20vw;
+    color: rgb(19, 185, 185);
+    -webkit-text-stroke: 1px rgb(56, 54, 54);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  }
+
+  footer {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2vw;
+    color: rgb(154, 34, 34);
+    -webkit-text-stroke: 1px rgb(56, 54, 54);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    padding-top: 2vw;
+    padding-left: 70vw;
+  }
+
+/* end of homepage declarations */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rooms declarations */
+#roomBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5vw;
+  background-color: rgb(19, 185, 185);
+}
+
+.rooms-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.room {
+  width: 45vw;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: gainsboro;
+}
+
+.room-link {
+  font-family: 'Cinzel Decorative', cursive;
+  text-shadow: 0 0 1px #c71111, 0 0 2px #da1717, 0 0 2px #6c0a0a;
+}
+
+.room-details {
+  width: 50%;
+  height: auto;
+  float: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.room-pics {
+  width: 50%;
+  height: auto;
+  float: right;
+
+}
+
+/* end of rooms declarations */
+
+
+
+
+
+
+
+
+
+
+
+
+/* book declarations */
+
+#bookBody {
+  background-color: gainsboro;;
+}
+
+
+#bookmessage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15vw;
+  font-family: 'Cinzel Decorative', cursive;
+  text-shadow: 0 0 1px #c71111, 0 0 2px #da1717, 0 0 2px #6c0a0a;
+
+}
+
+#book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+img {
+  transition: transform 0.2s; /* add transition effect */
+}
+
+img:hover {
+  transform: scale(2.0); /* increase image size by 35% */
+}
+
+
+
+
+
+
+/* end of rooms declarations */
