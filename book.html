@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Royal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <script type="module" src="index.js"></script>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/rooms">Rooms</a></li>
+        <li><a href="/book">Book</a></li>
+      </ul>
+    </nav>
+    
+  </head>
+  <body id="bookBody">
+    <h1 id="bookmessage">Book a Room</h1>
+  <div id="book-container">
+    <form action="/book" method="post">
+      <label for="room">Room:</label>
+      <select name="room" id="room">
+        <option value="">--Select a Room--</option>
+        <option value="101">101 $89.99/night</option>
+        <option value="102">102 $89.99/night</option>
+        <option value="103">103 $99.99/night</option>
+        <option value="104">104 $99.99/night</option>
+        <option value="105">105 $109.99/night</option>
+        <option value="106">106 $109.99/night</option>
+        <option value="107">107 $119.99/night</option>
+        <option value="108">108 $119.99/night</option>
+        <option value="109">109 $129.99/night</option>
+        <option value="110">110 $129.99/night</option>
+      </select>
+      <br>
+      <label for="checkin">Check-in Date:</label>
+      <input type="date" id="checkin" name="checkin">
+      <br>
+      <label for="checkout">Check-out Date:</label>
+      <input type="date" id="checkout" name="checkout">
+      <br>
+      <label for="customer_name">Customer Name:</label>
+      <input type="text" id="customer_name" name="customer_name">
+      <br>
+      <label for="customer_number">Customer Number:</label>
+      <input type="text" id="customer_number" name="customer_number">
+      <br>
+      <button type="submit">Book Now</button>
+      <p id="room-description"></p>
+    </form>
+  </body>
+</div>
+</html>
